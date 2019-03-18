@@ -133,7 +133,6 @@ export default {
   },
   watch: {
     status() {
-      console.log("chamou source status create");
       let s = this.status;
       this.exibir = s;
     }

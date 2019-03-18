@@ -219,7 +219,6 @@ export default {
     },
 
     acao(opcao) {
-      console.log("opcap:", opcao);
       if (opcao === 0) {
         this.classObjectDisplay = true;
         this.list = true;
@@ -239,7 +238,6 @@ export default {
         this.edit = true;
       }
       if (opcao === 3) {
-        this.productFindId((id = null));
         this.listar();
         this.classObjectDisplay = true;
         this.editar = false;
@@ -291,7 +289,6 @@ export default {
     },
 
     addProduct(dados) {
-      console.log("dados", dados);
       this.listar();
       this.productFindId(dados.id);
       this.edit = false;

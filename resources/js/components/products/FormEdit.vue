@@ -140,12 +140,10 @@ export default {
   },
   watch: {
     source() {
-      console.log("chamou source edit");
       let s = this.source;
       this.item = s;
     },
     status() {
-      console.log("chamou source status editar");
       let s = this.status;
       this.exibir = s;
     }

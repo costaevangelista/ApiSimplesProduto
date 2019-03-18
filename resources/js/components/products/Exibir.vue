@@ -56,12 +56,10 @@ export default {
   },
   watch: {
     source() {
-      console.log("chamou source exibir");
       let s = this.source;
       this.item = s;
     },
     status() {
-      console.log("chamou source status exibir");
       let s = this.status;
       this.exibir = s;
     }
