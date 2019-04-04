@@ -1,4 +1,4 @@
-# Alamo Platform Produto
+# Plataforma Simples Produto
 Mini Projeto de Produto para Analise
 
 ## Instalação Manual
